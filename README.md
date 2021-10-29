@@ -1,2 +1,2 @@
 # MPint
-MPint = simple automated integration of peaks in multiple spectra.
+MPint = simple automated integration of peaks in multiple spectra...
