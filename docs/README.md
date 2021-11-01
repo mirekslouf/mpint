@@ -1,10 +1,10 @@
-MPint :: automated integration of peaks in multiple spectra
------------------------------------------------------------
+MPint :: integration of peaks in multiple spectra
+-------------------------------------------------
 
-* The MPint package **reads series of spectra**... <br>
-  ...saves each spectrum as PNG image <br>
-  ...**integrates peaks** defined by the user <br>
-  ...**and calculates indexes** defined by the user.
+* The MPint package **reads series of spectra**...
+	* saves each spectrum as PNG image
+	* **integrates peaks** defined by the user
+	* **and calculates indexes** defined by the user.
 * Explanation of key terms:
 	* Series of spectra = set of XY-files (ascii files with two columns: X,Y)
 	* User-defined peaks = peaks are defined by minimum and maximum X-values
@@ -60,7 +60,7 @@ Documentation, help, examples, demo...
 	* Jupyter notebook: possible, but it brings no apparent benefits.
 * **Detailed MPint documentation:**
 	* all functions have docstrings, which enables the following...
-	* Spyder: place cursor to function definition and press Ctrl+I
+	* Spyder: place cursor to a function definition and press Ctrl+I
 	* Pdoc: auto-generates
 	  [HTML help](./pdoc.html/mpint/index.html)
 	  which documents all functions, modules...
