@@ -3,7 +3,8 @@ MPint :: master script template
 
 * The code/script below can be used as a template to run MPint calculation.
 * It is enough to modify parameters in section [0] and run the script.
-* Note: before running this script, you need a library describing spectra!
+* Note: before running this script,
+  you need a [library](.\pe.md) describing spectra!
 
 ```python
 print('MPInt = automated integration of selected peaks in multiple spectra')
