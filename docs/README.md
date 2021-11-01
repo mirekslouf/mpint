@@ -19,7 +19,7 @@ Installation
 ------------
 
 * MPint is a standard Python package, deposited at
-  [PyPI](http://pypi.org/projects/mpint)
+  [PyPI](http://pypi.org/project/mpint)
 * Consequently, it is installed with a single command: `pip install mpint`
 * It should work with any Python >=3.6 distribution that includes
   [SciPy](https://www.scipy.org/) modules.
