@@ -3,8 +3,8 @@ MPint :: master script template
 
 * The template below can be employed as master script
   that runs MPint calculation.
-* The conventional name of the master script is *01mpint.py*;
-  the main outputs are *01mpint.py.txt/png*. 
+* The conventional name of the master script is `01mpint.py`
+* If you keep the convention, the main outputs are `01mpint.py.txt/png` 
 * It is enough to modify parameters in section [0] and run the script.
 * Key parameter is a [library](.\pe.html) that describes the analyzed spectra.
 
