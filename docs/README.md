@@ -68,4 +68,4 @@ Documentation, help, examples, demo...
 ## Brief history
 
 * Old versions of MPINT: Perl + GNUplot; work fine, not not too user-friendly 
-* Version 1.0 = re-written in Python, tested on multiple files from CZ, IT, ES
+* Version 1.0 = re-written in Python, tested on datafiles from CZ, IT, ES
