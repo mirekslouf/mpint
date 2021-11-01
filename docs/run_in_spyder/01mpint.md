@@ -1,10 +1,12 @@
 MPint :: master script template
 -------------------------------
 
-* The code/script below can be used as a template to run MPint calculation.
+* The template below can be employed as master script
+  that runs MPint calculation.
+* The conventional name of the master script is *01mpint.py*;
+  the main outputs are *01mpint.py.txt/png*. 
 * It is enough to modify parameters in section [0] and run the script.
-* Note: before running this script,
-  you need a [library](.\pe.md) describing spectra!
+* Key parameter is a [library](.\pe.html) that describes the analyzed spectra.
 
 ```python
 print('MPInt = automated integration of selected peaks in multiple spectra')
