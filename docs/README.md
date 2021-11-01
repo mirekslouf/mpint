@@ -43,7 +43,7 @@ Documentation, help, examples, demo...
 		* Prepare a *master script* for processing the datafiles
 		* Run the *master script* and see results in active directory
 		* Basically you just edit&run template scripts
-		  &rArr; [step-by-step instructions](./run_in_spyder/spyder.md.html) 
+		  &rArr; [step-by-step instructions](./run_in_spyder/spyder.md) 
 * **Running MPint in other environments:**
 	* Command line: quite Ok (analogous to Spyder).
 	* Jupyter notebook: possible, but it brings no apparent benefits.
