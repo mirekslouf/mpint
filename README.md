@@ -1,5 +1,4 @@
 # MPint
 * MPint = simple automated integration of peaks in multiple spectra.
-
-## Documentation
-* Directory with [demo-files](./docs/demo/) illustrating how the package works.  
+* Documentation, examples, and installation:
+  [https://mirekslouf.github.io/mpint/](https://mirekslouf.github.io/mpint/)
