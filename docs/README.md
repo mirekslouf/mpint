@@ -65,7 +65,8 @@ Documentation, help, examples, demo...
 	  [HTML help](./pdoc.html/mpint/index.html)
 	  which documents all functions, modules...
 
-## Brief history
+Brief history
+-------------
 
 * Old versions of MPINT: Perl + GNUplot; work fine, but not too user-friendly 
 * Version 1.0 = re-written in Python, tested on datafiles from CZ, IT, ES
