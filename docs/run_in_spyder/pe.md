@@ -1,8 +1,11 @@
 MPint :: library template
 -------------------------
 
-* The code/script below can be used as a template defining MPint libraries.
-* The library is required in
+* The code/script below can be employed as a template
+  for definition of new MPint libraries.
+* The editing of the library is quite simple:
+  use common sense and the explanatory comments inside.
+* The reference to a correct library is required in
   [master script](./01mpint.html) which runs the whole MPint calculation.
 
 ```python
@@ -12,10 +15,6 @@ mpint.lib.pe
 * Library that defines peaks and indexes for IR spectra of PE. 
 * Additionally, the library defines X and Y limits for plotting of spectra.
 """
-
-# This file can be used as a template for user-defined libraries.
-# In the text below, the user should modify the following variables/functions:
-# (the modifications are not difficult; use common sense and comments below)
 
 # Technical notes:
 # 1) Peaks are defined in a variable, as they are constant values.
