@@ -20,12 +20,12 @@ We process known spectra, for which the library has already been defined.
 	* for testing, you may use datafiles from our [demo directory](../demo)
 	* pre-process/convert the datafiles to correct format if necessary
 	* sample pre-processing scripts are part of the archive in [demo directory]
-2. Copy file *01mpint.py* to the directory with datafiles.
-	* 01mpint.py = master script that runs the whole MPint calculation
-	* 01mpint.py can be copied from previous MPint processing or demo directory 
+2. Copy file `01mpint.py` to the directory with datafiles.
+	* `01mpint.py` = master script that runs the whole MPint calculation
+	* `01mpint.py` can be copied from previous MPint dir or [demo directory] 
 	* alternatively, you can copy&edit the following
 	  [master script template](./01mpint.html)
-3. Run *01mpint.py* and see the results in the active directory
+3. Run `01mpint.py` and see the results in the active directory
 
 (2) Processing spectra, for which you need new library
 ------------------------------------------------------
