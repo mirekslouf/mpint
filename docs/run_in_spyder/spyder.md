@@ -13,7 +13,7 @@ MPint :: running in Spyder step-by-step
 	  `pythonXXX/lib/site-packages/mpint/lib`
 3. Prepare a *master script* for processing the datafiles <br>
 	* you may just copy+paste existing script or edit this
-	  [master script template](./01mpint.py)
+	  [master script template](./01mpint.md)
 	* we note that master script emloys the above-defined library
 4. Run the *master script*
 	* conventional name of master script: `01mpint.py`
