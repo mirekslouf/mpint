@@ -3,7 +3,7 @@ MPint :: library template
 
 * The code/script below can be used as a template defining MPint libraries.
 * The library is required in
-  [master script](.\01mpint.md) which runs the whole MPint calculation.
+  [master script](./01mpint.md) which runs the whole MPint calculation.
 
 ```python
 """
