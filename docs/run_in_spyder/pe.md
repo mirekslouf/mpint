@@ -3,9 +3,9 @@ MPint :: library template
 
 * The code/script below can be employed as a template
   for definition of new MPint libraries.
-* The editing of the library is quite simple:
+* The editing of the library is simple:
   use common sense and the explanatory comments inside.
-* The reference to a correct library is required in
+* The reference to a correct library is required in the
   [master script](./01mpint.html) which runs the whole MPint calculation.
 
 ```python
