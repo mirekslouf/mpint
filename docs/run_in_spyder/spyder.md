@@ -14,7 +14,7 @@ For MPint processing, you need three things:
 --------------------------------------------
 
 This is quite frequent case: <br>
-We process known spectra, for which the library has already been prepared.  
+We process known spectra, for which the library has already been defined.  
 
 1. Go to the directory with datafiles
 	* for testing, you may use datafiles from our [demo directory](../demo)
@@ -30,7 +30,7 @@ We process known spectra, for which the library has already been prepared.
 (2) Processing spectra, for which you need new library
 ------------------------------------------------------
 
-This is general case: <br>
+This is more general case: <br>
 We need to define which peaks to integrate and which indexes to calculate.
 
 1. Prepare a new library
