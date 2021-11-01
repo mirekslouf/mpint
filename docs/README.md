@@ -30,7 +30,7 @@ Documentation, help, examples, demo...
 * **Simple introductory demo:**
 	* Just download [sample data](./demo), run the scripts and see the results.
 * **Running MPint in Spyder:**
-	* [Printscreen](./images/mpint-in-spyder.png)
+	* [Printscreen](./run_in_spyder/spyder_prinscreen.png)
 	  illustrating a typical MPint session in Spyder
 	* [Spyder](https://www.spyder-ide.org/)
 	  is a freeware Python IDE, usable as a simple UI, because...
