@@ -3,10 +3,15 @@ MPint :: library template
 
 * The code/script below can be employed as a template
   for definition of new MPint libraries.
-* The libraries in MPint define, which peaks to integrate
-  and which indexes to calculate.
+* The libraries in MPint define, which peaks and indexes
+  to calculate in given spectra = sample.
 * The editing of the library is simple:
-  use common sense and the explanatory comments inside.
+  use common sense + follow the comments in the template.
+* Once the editing is finished, do the following:
+	* save the library as PY-file <br>
+	  use simple name without spaces, such as `pp.py`
+	* copy the file to the MPint installation directory <br>
+      somewhere in Python directory, subdir `lib/site-packages/mpint/lib`
 * The reference to a correct library is required in the
   [master script](./01mpint.html) which runs the whole MPint calculation.
 
