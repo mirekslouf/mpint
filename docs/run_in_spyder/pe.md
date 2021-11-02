@@ -13,7 +13,7 @@ MPint :: library template
 	* copy it to MPint installation directory = 
       in Python dir, subdir `lib/site-packages/mpint/lib`
 * The correct library must be imported in the
-  [master script](./01mpint.html), which runs the whole MPint calculation.
+  [master script](./01mpint.html), which runs the MPint calculation.
 
 ```python
 """
