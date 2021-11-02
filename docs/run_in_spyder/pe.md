@@ -3,6 +3,8 @@ MPint :: library template
 
 * The code/script below can be employed as a template
   for definition of new MPint libraries.
+* The libraries in MPint define, which peaks to integrate
+  and which indexes to calculate.
 * The editing of the library is simple:
   use common sense and the explanatory comments inside.
 * The reference to a correct library is required in the

@@ -7,6 +7,8 @@ MPint :: master script template
 * If you keep the convention, the main outputs are `01mpint.py.txt/png` 
 * It is enough to modify parameters in section [0] and run the script.
 * Key parameter is a [library](.\pe.html) that describes the analyzed spectra.
+* The library is saved in PY-file (such as `pe.py`) and imported in
+  *master script* as `SAMPLE` (see code below).
 
 ```python
 print('MPInt = automated integration of selected peaks in multiple spectra')

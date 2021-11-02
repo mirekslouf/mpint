@@ -34,11 +34,11 @@ This is more general case: <br>
 We need to define which peaks to integrate and which indexes to calculate.
 
 1. Prepare the new library.
-	* the easiest is to edit a [template](./pe.html)
+	* the easiest is to edit a [library template](./pe.html)
 	* the editing instructions are part of the template
 	* save the edited file with different filename and PY-suffix
 2. Save the newly prepared file = PY-library to MPint installation directory.
 	* MPint installation directory will be somewhere in Python directory
-	* search for the subdirectory: *lib/site-packages/mpint*
-	* and save the library to: *mpint/lib*
+	* search for the subdirectory: `lib/site-packages/mpint`
+	* and save the library to: `mpint/lib`
 3. Proceed with the rest of MPint calculation like in the case (1) above.
