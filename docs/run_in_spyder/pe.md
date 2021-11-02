@@ -12,8 +12,8 @@ MPint :: library template
 	  use simple name without spaces, such as `pp.py`
 	* copy it to MPint installation directory = 
       in Python dir, subdir `lib/site-packages/mpint/lib`
-* The reference to a correct library is required in the
-  [master script](./01mpint.html), which runs the MPint calculation.
+* The correct library must be imported in the
+  [master script](./01mpint.html), which runs the whole MPint calculation.
 
 ```python
 """
