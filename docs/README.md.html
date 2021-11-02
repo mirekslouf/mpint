@@ -1,0 +1,76 @@
+<h2>MPint :: integration of peaks in multiple spectra</h2>
+<ul>
+<li>The MPint package <strong>reads series of spectra</strong>...<ul>
+<li>saves each spectrum as PNG image</li>
+<li><strong>integrates peaks</strong> defined by the user</li>
+<li><strong>and calculates indexes</strong> defined by the user.</li>
+</ul>
+</li>
+<li>Explanation of key terms:<ul>
+<li>Series of spectra = set of XY-files (ascii files with two columns: X,Y)</li>
+<li>User-defined peaks = peaks are defined by minimum and maximum X-values</li>
+<li>User-defined indexes = indexes are defined as ratios between peak areas</li>
+<li>Example: IR oxidation index = (area of C=O peak) / (standard peak area)</li>
+</ul>
+</li>
+<li>Simple user definition of peaks and indexes:<ul>
+<li>Both peaks and indexes are defined in a very simple PY-library.</li>
+<li>Editing/adjusting libraries is quite easy - see the documentation.</li>
+<li>Once the library is defined, all calculations are fully automatic.</li>
+</ul>
+</li>
+</ul>
+<h2>Installation</h2>
+<ul>
+<li>MPint is a standard Python package, deposited at
+  <a href="http://pypi.org/project/mpint">PyPI</a></li>
+<li>Consequently, it is installed with a single command: <code>pip install mpint</code></li>
+<li>It should work with any [Python &gt;=3.6 distribution] that includes
+  <a href="https://www.scipy.org/">SciPy</a> modules.</li>
+</ul>
+<h2>Documentation, help, examples, demo...</h2>
+<ul>
+<li><strong>Simple introductory demo:</strong><ul>
+<li>Just download <a href="./demo">sample data</a>, run the scripts and see the results.</li>
+</ul>
+</li>
+<li><strong>Running MPint in Spyder:</strong><ul>
+<li><a href="./run_in_spyder/spyder_prinscreen.png">Printscreen</a>
+  illustrating a typical MPint session in Spyder</li>
+<li><a href="https://www.spyder-ide.org/">Spyder</a>
+  is a freeware Python IDE, usable as a simple UI, because...<ul>
+<li>it is easy to install: <code>pip install spyder</code></li>
+<li>it is well-established, standard, and user-friendly</li>
+<li>you can see the program run, text and graphical outputs together</li>
+</ul>
+</li>
+<li>In general, the MPint session consists of four steps:<ul>
+<li>Go to the directory with your datafiles</li>
+<li>Prepare a <em>library</em> for given set of spectra</li>
+<li>Prepare a <em>master script</em> for processing the datafiles</li>
+<li>Run the <em>master script</em> and see results in active directory</li>
+<li>Basically you just edit&amp;run template scripts
+  &rArr; <a href="./run_in_spyder/spyder.md">step-by-step instructions</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Running MPint in other environments:</strong><ul>
+<li>Command line: quite Ok (analogous to Spyder).</li>
+<li>Jupyter notebook: possible, but it brings no apparent benefits.</li>
+</ul>
+</li>
+<li><strong>Detailed MPint documentation:</strong><ul>
+<li>all functions have docstrings, which enables the following...</li>
+<li>Spyder: navigate your cursor to a function definition and press Ctrl+I</li>
+<li>Pdoc: auto-generates
+  <a href="./pdoc.html/mpint/index.html">HTML help</a>
+  which documents all functions, modules...</li>
+</ul>
+</li>
+</ul>
+<h2>Brief history</h2>
+<ul>
+<li>Old versions of MPINT: Perl + GNUplot; work fine, but not too user-friendly </li>
+<li>Version 1.0 = re-written in Python, tested on datafiles from CZ, IT, ES</li>
+</ul>
