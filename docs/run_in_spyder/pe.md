@@ -10,8 +10,8 @@ MPint :: library template
 * Once the editing is finished, do the following:
 	* save the library as PY-file;
 	  use simple name without spaces, such as `pp.py`
-	* copy it to MPint installation directory = <br>
-      look in Python dir, subdir `lib/site-packages/mpint/lib`
+	* copy it to MPint installation directory = 
+      in Python dir, subdir `lib/site-packages/mpint/lib`
 * The reference to a correct library is required in the
   [master script](./01mpint.html), which runs the MPint calculation.
 
