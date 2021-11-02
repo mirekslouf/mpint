@@ -25,7 +25,10 @@ We process known spectra, for which the library has already been defined.
 	* `01mpint.py` can be copied from previous MPint dir or [demo directory] 
 	* alternatively, you can copy&edit the following
 	  [master script template](./01mpint.html)
-3. Run `01mpint.py` and see the results in the active directory
+3. Open `01mpint.py` in Spyder and...
+	* adjust section [0] as described in the [template](./01mpint.html)
+	* run the script in Spyder and see the results on screen
+	* the outputs are saved also in the current directory
 
 (2) Processing spectra, for which you need new library
 ------------------------------------------------------
