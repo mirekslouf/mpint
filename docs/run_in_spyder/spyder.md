@@ -30,8 +30,8 @@ We process known spectra, for which the library has already been defined.
 	* run the script in Spyder and see the results on screen
 	* the outputs are saved also in the current directory
 
-(2) Processing spectra, for which you need new library
-------------------------------------------------------
+(2) Processing spectra, for which you need a new library
+--------------------------------------------------------
 
 This is more general case: <br>
 We need to define which peaks to integrate and which indexes to calculate.
