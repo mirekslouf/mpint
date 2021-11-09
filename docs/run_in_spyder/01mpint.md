@@ -13,7 +13,7 @@ MPint :: master script template
 * Concerning the libraries:
 	* MPint is for batch processing - usually you use existing libraries
 	* If you need to define new library, you can use a
-	  [library template](../pe.html)
+	  [library template](./pe.html)
 
 ```python
 print('MPInt = automated integration of selected peaks in multiple spectra')
