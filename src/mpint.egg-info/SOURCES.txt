@@ -10,3 +10,5 @@ src/mpint.egg-info/PKG-INFO
 src/mpint.egg-info/SOURCES.txt
 src/mpint.egg-info/dependency_links.txt
 src/mpint.egg-info/top_level.txt
+src/mpint/lib/__init__.py
+src/mpint/lib/pe.py
