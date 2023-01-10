@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 MPint :: integration of peaks in multiple spectra
 -------------------------------------------------
 
@@ -122,4 +121,3 @@ Brief history
 
 * Old versions of MPINT: Perl + GNUplot; work fine, but not too user-friendly 
 * Version 1.0 = re-written in Python, tested on datafiles from CZ, IT, ES
->>>>>>> c15dad5b967321c3d386be08f91c76fca9bef7b4
