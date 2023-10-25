@@ -17,7 +17,7 @@ auto-generated with [PDoc](https://pdoc.dev).
 * MPint is a quite universal program.
 * You can use it routinely to process a predefined type of spectra.
 * Or you can prepare your own library for any other type of spectra.
-* See [step-by-step instructions](./run_in_spyder/spyder.md)
+* See [step-by-step instructions](./run_in_spyder/spyder.html)
   how to process arbitrary spectra in
   [Spyder](https://www.spyder-ide.org)
 * Nonte: Running in Spyder is not necessary, but recommended and convenient.
