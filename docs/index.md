@@ -19,5 +19,5 @@ auto-generated with [PDoc](https://pdoc.dev).
 * Or you can prepare your own library for any other type of spectra.
 * See [step-by-step instructions](./run_in_spyder/spyder.html)
   how to process arbitrary spectra in
-  [Spyder](https://www.spyder-ide.org)
+  [Spyder](https://www.spyder-ide.org).
 * Nonte: Running in Spyder is not necessary, but recommended and convenient.
