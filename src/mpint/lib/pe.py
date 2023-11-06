@@ -2,7 +2,7 @@
 mpint.lib.pe
 ------------
 * Library that defines peaks and indexes for IR spectra of PE. 
-* Additionally, the library defines X and Y limits for plotting of spectra.
+* Additionally, the library defines XY-limits for the plotting of spectra.
 """
 
 # Technical notes:
@@ -46,13 +46,12 @@ def calculate_indexes(peaks):
     Returns
     -------
     indexes : OrderedDict 
-        * OrderedDict - in order to keep the order of indexes in outputs.
-        * The OrderedDict contains expressions = definitions of indexes.
-        * Typical access to these expressions/calculations is as follows:
+        OrderedDict - in order to keep the order of indexes in outputs.
+        The OrderedDict contains expressions = definitions of indexes.
+        Typical access to these expressions/calculations is as follows:
             
-    >>> import mpint.lib.pe as SAMPLE
-    >>> OI = SAMPLE.calculate_indexes(peaks).[OI]
-        
+        >>> import mpint.lib.pe as SAMPLE
+        >>> OI = SAMPLE.calculate_indexes(peaks).[OI] 
     """
     # Create empty ordered dictionary
     indexes = OrderedDict()
@@ -64,8 +63,8 @@ def calculate_indexes(peaks):
     CA = peaks['PE_cryst'].area / peaks['PE_amorf'].area
     indexes['CI'] = CA / (CA + 1)
     # Correct for possible small negative values
-    if indexes['OI'] < 0 : indexes['OI'] = -0.0001
-    if indexes['VI'] < 0 : indexes['VI'] = -0.0001
+    if indexes['OI'] < 0 : indexes['OI'] = 0
+    if indexes['VI'] < 0 : indexes['VI'] = 0
     # Return calculated values
     return(indexes)
 
@@ -80,12 +79,12 @@ def x_limits_for_plotting(XYdata):
     
     Returns
     -------
-    xmin, xmax : X-limits for plotting of spectra
+    xmin, xmax : float, float
+        X-limits for plotting of spectra.
     
-    How to define xmin, xmax?
-    -------------------------
-    The xmin and xmax values are usually just hard-coded
-    in the function below.
+    Note 
+    ----
+    * The xmin and xmax values are usually just hard-coded below.
     """
     xmin = 800
     xmax = 2200
@@ -102,10 +101,11 @@ def y_limits_for_plotting(XYdata):
     
     Returns
     -------
-    ymin, ymax : Y-limits for plotting of spectra
+    ymin, ymax :
+        Y-limits for plotting of spectra
     
-    How to define ymin, ymax?
-    -------------------------
+    Notes
+    -----
     * If you know numpy well, you can define (ymin, ymax)
       in the code of this function below; this may give you nicer output.
     * If unsure, use the following (universal) code to define (ymin, ymax):
