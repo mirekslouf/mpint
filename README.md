@@ -14,6 +14,13 @@ MPint :: integration of peaks in multiple spectra
     * Editing/adjusting libraries is quite easy - see the documentation.
 	* Once the library is defined, all calculations are fully automatic.
 
+Installation
+------------
+* Requirement: Python with sci-modules: numpy, matplotlib, pandas
+* `pip install pyspectra` = 3rd party package for reading SPC files 
+* `pip install mpint` = STEMDIFF package itself (uses all packages above)
+
+
 Quick start
 -----------
 * Download [example1.zip](https://www.dropbox.com/scl/fo/7axsdxnw03us29r8r0p5w/h?rlkey=l2hs3948fi2u9olcxxnysswrd&dl=0)
